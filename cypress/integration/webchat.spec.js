@@ -53,7 +53,7 @@ describe(
     it('Emergency Test - Seizure', () => {
       cy.get('textarea.el-textarea__inner').type('My child has seizure{enter}');
       cy.get('#keyreply-panel-body').contains(
-        'I detected an emergency condition. Is your child suffering from seizure, drowsiness (altered subconsciousness, confused state, abnormal behaviour and NOT tiredness) or is unresponsive?'
+        'I have detected an emergency condition. Is your child suffering from seizure, drowsiness (altered subconsciousness, confused state, abnormal behaviour and NOT tiredness) or is unresponsive?'
       );
     });
   }
