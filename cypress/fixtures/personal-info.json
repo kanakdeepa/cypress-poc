@@ -1,0 +1,14 @@
+[
+  {
+    "question": "How may I address you?",
+    "input": "Kanak KR{enter}"
+  },
+  {
+    "question": "To start off, may I have your Singapore mobile number? Please enter a 8-digit number starting with 6 / 8 / 9",
+    "input": "88889999{enter}"
+  },
+  {
+    "question": "May I have your email for subsequent correspondence?",
+    "input": "email@example.com{enter}"
+  }
+]
