@@ -8,9 +8,11 @@
     "report": "run-s -c precy:run cy:run report:merge report:generate report:copyScreenshots",
     "precy:run": "rm -rf cypress/videos cypress/screenshots cypress/results cypress/reports",
     "cy:run": "cypress run",
-    "report:merge": "mochawesome-merge cypress/results/json/*.json > cypress/results/mochawesome-bundle.json",
-    "report:generate": "marge cypress/results/mochawesome-bundle.json -o cypress/reports/html",
-    "report:copyScreenshots": "cp -r cypress/screenshots cypress/reports/html/screenshots"
+    "report:merge": "mochawesome-merge cypress/results/json/*.json > cypress/results/index.json",
+    "report:generate": "marge cypress/results/index.json -o cypress/reports/html",
+    "report:copyScreenshots": "cp -r cypress/screenshots cypress/reports/html/screenshots",
+    "report:deploy:surge": "surge --project cypress/reports/html --domain webchat-automation-report.surge.sh",
+    "report:email": ""
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +21,7 @@
     "mochawesome": "^6.2.2",
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^5.2.0",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "surge": "^0.22.1"
   }
 }

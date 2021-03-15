@@ -2,3 +2,4 @@ node_modules
 cypress/results
 cypress/reports
 cypress/videos
+cypress/screenshots
