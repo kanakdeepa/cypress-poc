@@ -1,0 +1,101 @@
+{
+  "EMERGENCY_KEYWORDS": {
+    "keywords": [
+      "My child has seizure",
+      "My child is unresponsive",
+      "My child feels drowsy",
+      "My child has spasm",
+      "My child has epilepsy",
+      "My child has epilapsy"
+    ],
+    "answer": "I detected an emergency condition. Is your child suffering from seizure, drowsiness (altered subconsciousness, confused state, abnormal behaviour and NOT tiredness) or is unresponsive?"
+  },
+
+  "ABDOMEN_ISSUES": {
+    "keywords": [
+      "Stomachache",
+      "Stomach ache",
+      "Stomach pain",
+      "Tummy ache",
+      "Tummy pain",
+      "Belly ache",
+      "Belly pain",
+      "Abdominal pain",
+      "Abdomen pain"
+    ],
+    "answer": "Is your enquiry about abdominal pain?"
+  },
+
+  "ALLERGIC_RHINITIS": {
+    "keywords": [
+      "Allergic Rhinitis",
+      "Nasal itch",
+      "Nose itch",
+      "Sensitive nose",
+      "Nose-itch",
+      "Nose itchy",
+      "Nasal itchy",
+      "Itchy nose",
+      "Nose is itchy",
+      "Nose has been itchy",
+      "Hay fever"
+    ],
+    "answer": "Do you wish to enquire about allergic rhinitis?"
+  },
+  "BCG": {
+    "keywords": [
+      "BCG injection",
+      "BCG scar",
+      "BCG redness",
+      "BCG red",
+      "BCG pus",
+      "BCG fluid",
+      "BCG swelling",
+      "BCG ulcer",
+      "BCG pain",
+      "Bacille Calmette-Guérin (BCG)",
+      "bcg",
+      "bcg?"
+    ],
+    "answer": "Do you wish to enquire about BCG vaccination?"
+  },
+
+  "BLISTERS": {
+    "keywords": ["Blister", "blisters"],
+    "answer": "Do you wish to enquire about blister?"
+  },
+  "CIRCUMCISION": {
+    "keywords": [
+      "Circumcise",
+      "Circumcision",
+      "Remove foreskin",
+      "Foreskin operation",
+      "Foreskin surgery",
+      "Circumcision bleeding",
+      "Circumcision pain",
+      "Circumcision urine",
+      "Circumcision urination"
+    ],
+    "answer": "Do you wish to enquire about circumcision?"
+  },
+  "CONSTIPATION": {
+    "keywords": [
+      "Constipation",
+      "Have not pooped",
+      "Cannot poop",
+      "Constipated",
+      "Constipate",
+      "Cannot shit",
+      "Haven’t shit",
+      "Have not shit",
+      "No bowel movement",
+      "Cannot clear bowel",
+      "Cannot pass motion",
+      "Didn’t pass motion",
+      "Hasn’t shit",
+      "Hasn’t poop",
+      "Haven’t poop"
+    ],
+    "answer": "Do you wish to enquire about circumcision?"
+  }
+}
